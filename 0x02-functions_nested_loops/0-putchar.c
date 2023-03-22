@@ -1,20 +1,19 @@
-#include "holberton.h"
-
-/**
- * main - Prints Holberton as a message.
+#include <main.h>
+ /* *
+ * main -starting my code ,
  *
- * Return: Always 0 (Success)
+ * Return: On success 1.
  */
-int main(void)
+int _putchar(char c)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
